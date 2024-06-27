@@ -58,7 +58,9 @@ git branch
 git status
 git diff <file name>
 git push --set-upstream origin NewBranch 
+git add <file name>
 git commit -m "msg"
+git push
 ```
 
 ### Step#3: Visit GitHub and merge the branches, then on you terminal
@@ -68,7 +70,6 @@ git checkout main
 git pull
 git branch -d NewBranch
 git status
-git push
 ```
 
 
