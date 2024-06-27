@@ -5,9 +5,7 @@ Create new repo from your Web-based GitHub account
 ### Step #2
 
 Clone your online repository on your local machine by 
-```
-git clone git@github.com:salohiddin22/PCA-analysis.git
-
+```git clone git@github.com:salohiddin22/PCA-analysis.git
 ```
 
 And enter the repo directory in your local machine by cd PCA-analysis/
