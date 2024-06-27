@@ -1,54 +1,58 @@
 # This is a flow of creating & managing repos in GitHub
+
+## Part 1: Creating and setting-up a new repo
+
+
 ### Step #1
-Create new repo from your Web-based GitHub account
+Create a new repo from your Web-based GitHub account.
 
 ### Step #2
 
 Clone your online repository on your local machine by 
 ```
-git clone git@github.com:salohiddin22/PCA-analysis.git
+git clone git@github.com:username/Repo-Name.git
 
 ```
 
 And enter the repo directory in your local machine by 
 
 ```
-cd PCA-analysis/
+cd Repo-Name/
 ```
 
-Here create/bring any files as you want
+Here you can create/bring any files you want
 
 ### Step #3
 ```
-git status  > shows all the updated files
+git status  (to show all the updated files)
 
 git add <file name> <file name>  (if you wanna add one or more files)
 git add *  (if you wanna add all files)
 git status
 
-git restore --staged *  (reverses all the changes you made) 
+git restore --staged *  (to reverse all the changes you made) 
 
 git commit -m "text of the msg"
 ```
 
 ### Step #3.x
 
-If there is error regarding your account appers when git commit watch [this video](https://youtu.be/3wAaPNxgLHI?si=Yarxhgsj25RTkMHI) on how to create and add SHH for GitHub
+If there is error appers regarding your account when you do "git commit", watch [this video](https://youtu.be/3wAaPNxgLHI?si=Yarxhgsj25RTkMHI) on how to create and add SHH for GitHub.
 
 
 ### Step #4
 ```
 git status
-git push > to push the changes to your online repo
+git push  (to push the changes to your online repo)
 ```
 
-And last step - check your online repo is it's synced up.
+And the last step - check if your online repo is synced up.
 
 ```
 git status
 ```
 
-# This step is for updating files/creating branches
+## Part 2:  Uppdating existing filesfiles & creating branches
 
 ### Step#1
 Check the branch & create new one by
@@ -83,3 +87,4 @@ git status
 
 1. [Git & GitHub repo set-up for beginners](https://youtu.be/jTHhMSxQTNI?si=dyrvXEz_c0iR-hky)
 2. [The git flow](https://youtu.be/zTgXYR4PZ04?si=u3kfzdwt7Q7TRJoU)
+3. [Create and Add SSH Key to GitHub in Ubuntu](https://youtu.be/3wAaPNxgLHI?si=Yarxhgsj25RTkMHI)
