@@ -42,10 +42,10 @@ and last step check your online repo is it's synced up.
 git status
 ```
 
-## This step is for updating files/creating branches
+# This step is for updating files/creating branches
 
 ### Step#1
-CHeck the branch & create new one by
+Check the branch & create new one by
 ```
 git branch
 git checkout -b NewBranch
@@ -77,5 +77,3 @@ git status
 
 1. [Git & GitHub repo set-up for beginners](https://youtu.be/jTHhMSxQTNI?si=dyrvXEz_c0iR-hky)
 2. [The git flow](https://youtu.be/zTgXYR4PZ04?si=u3kfzdwt7Q7TRJoU)
-
-# added this line
