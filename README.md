@@ -42,21 +42,37 @@ and last step check your online repo is it's synced up.
 git status
 ```
 
-## This step is for updading files/creating branches
+## This step is for updating files/creating branches
 
 ### Step#1
+CHeck the branch & create new one by
 ```
 git branch
 git checkout -b NewBranch
 git branch
-u can make changes now
+```
+
+### Step#2: You can make changes now. After changing
+
+```
 git status
 git diff <file name>
 git push --set-upstream origin NewBranch 
 git commit -m "msg"
+```
+
+### Step#3: Visit GitHub and merge the branches, then on you terminal
+
+```
 git checkout main
 git pull
 git branch -d NewBranch
 git status
 git push
 ```
+
+
+### GitHub tutorial resources:
+
+1. [Git & GitHub repo set-up for beginners](https://youtu.be/jTHhMSxQTNI?si=dyrvXEz_c0iR-hky)
+2. [The git flow](https://youtu.be/zTgXYR4PZ04?si=u3kfzdwt7Q7TRJoU)
