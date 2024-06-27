@@ -8,19 +8,19 @@ Create a new repo from your Web-based GitHub account.
 
 ### Step #2
 
-Clone your online repository on your local machine by 
+Clone your online repository on your local machine by. 
 ```
 git clone git@github.com:username/Repo-Name.git
 
 ```
 
-And enter the repo directory in your local machine by 
+And enter the repo directory in your local machine by. 
 
 ```
 cd Repo-Name/
 ```
 
-Here you can create/bring any files you want
+Here you can create/bring any files you want.
 
 ### Step #3
 ```
@@ -37,22 +37,20 @@ git commit -m "text of the msg"
 
 ### Step #3.x
 
-If there is error appers regarding your account when you do "git commit", watch [this video](https://youtu.be/3wAaPNxgLHI?si=Yarxhgsj25RTkMHI) on how to create and add SHH for GitHub.
+If there is an error appers regarding your account when you do "git commit", watch [this video](https://youtu.be/3wAaPNxgLHI?si=Yarxhgsj25RTkMHI) on how to create and add SHH for GitHub.
 
 
 ### Step #4
 ```
 git status
 git push  (to push the changes to your online repo)
-```
-
-And the last step - check if your online repo is synced up.
-
-```
 git status
 ```
 
-## Part 2:  Uppdating existing filesfiles & creating branches
+And the last step: check if your online repo is synced up.
+
+
+## Part 2:  Updating existing filesfiles & creating branches
 
 ### Step#1
 Check the branch & create new one by
@@ -69,16 +67,16 @@ git status
 git diff <file name>
 git push --set-upstream origin NewBranch 
 git add <file name>
-git commit -m "msg"
+git commit -m "text of the msg"
 git push
 ```
 
-### Step#3: Visit GitHub and merge the branches, then on you terminal
+### Step#3: Visit GitHub and merge the branches, and delete that NewBranch. Then on you terminal
 
 ```
 git checkout main
-git pull
-git branch -d NewBranch
+git pull (to make sure you are up-to-date with main branch)
+git branch -d NewBranch (to delete the unnecessary branch on your local)
 git status
 ```
 
