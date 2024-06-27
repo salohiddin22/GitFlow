@@ -1,4 +1,4 @@
-# This is flow of creating & managing repos in GitHub
+# This is a flow of creating & managing repos in GitHub
 ### Step #1
 Create new repo from your Web-based GitHub account
 
@@ -10,9 +10,13 @@ git clone git@github.com:salohiddin22/PCA-analysis.git
 
 ```
 
-And enter the repo directory in your local machine by cd PCA-analysis/
+And enter the repo directory in your local machine by 
 
-Create/bring any files as you want
+```
+cd PCA-analysis/
+```
+
+Here create/bring any files as you want
 
 ### Step #3
 ```
@@ -36,9 +40,11 @@ If there is error regarding your account appers when git commit watch [this vide
 ```
 git status
 git push > to push the changes to your online repo
+```
 
-and last step check your online repo is it's synced up.
+And last step - check your online repo is it's synced up.
 
+```
 git status
 ```
 
