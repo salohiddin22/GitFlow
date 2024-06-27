@@ -30,3 +30,5 @@ plt.imshow(gradient_magnitude_normalized, cmap='gray')
 plt.colorbar()
 plt.title('Gradient Magnitude Map')
 plt.show()
+
+#this is just for testing
