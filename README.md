@@ -2,8 +2,6 @@
 
 ## Part 1: Creating and setting-up a new repo
 
-## This just a test
-
 ### Step #1
 Create a new repo from your Web-based GitHub account.
 
@@ -87,3 +85,4 @@ git status
 1. [Git & GitHub repo set-up for beginners](https://youtu.be/jTHhMSxQTNI?si=dyrvXEz_c0iR-hky)
 2. [The git flow](https://youtu.be/zTgXYR4PZ04?si=u3kfzdwt7Q7TRJoU)
 3. [Create and Add SSH Key to GitHub in Ubuntu](https://youtu.be/3wAaPNxgLHI?si=Yarxhgsj25RTkMHI)
+4. [Git Branches Tutorial](https://www.youtube.com/watch?v=e2IbNHi4uCI)
