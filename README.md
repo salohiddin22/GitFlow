@@ -2,6 +2,7 @@
 
 ## Part 1: Creating and setting-up a new repo
 
+## This just a test
 
 ### Step #1
 Create a new repo from your Web-based GitHub account.
